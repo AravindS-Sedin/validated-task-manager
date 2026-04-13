@@ -48,5 +48,5 @@ cd "validated task manager"
 ##  File Structure
 
 - `index.html`: The application structure and form layout.
-- `style.css`: The "TaskOrbit" design system and animations.
+- `style.css`: The design system and animations.
 - `script.js`: Core logic, state handling, and LocalStorage integration.
