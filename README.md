@@ -2,10 +2,8 @@
 
 TaskOrbit is a premium, real-time validated task manager built with **Vanilla JavaScript**. It focuses on a fluid user experience with robust validation, efficient DOM handling via event delegation, and persistent storage.
 
-![TaskOrbit Preview](https://img.shields.io/badge/UI-Glassmorphism-blueviolet?style=for-the-badge)
-![JS](https://img.shields.io/badge/JS-Vanilla-yellow?style=for-the-badge)
 
-## ✨ Features
+##  Features
 
 ### 1. Real-time Validation
 - **Automatic Checks**: Validates task title length (minimum 3 characters) and title uniqueness as you type.
@@ -26,13 +24,13 @@ Tasks are intelligently organized using a two-tier sorting system:
 - **Glassmorphism Design**: A sleek, modern interface with interactive hover effects and vibrant gradients.
 - **Priority Badging**: Distinct visual indicators for different priority levels to help you focus on what matters most.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **HTML5**: Semantic structure.
 - **CSS3**: Advanced styling with CSS variables, Glassmorphism, and responsive layouts.
 - **Vanilla JavaScript**: Core logic for state management, validation, and DOM manipulation.
 
-## 🚀 Getting Started
+##  Getting Started
 
 No installation is required. Simply open the `index.html` file in any modern web browser.
 
@@ -47,7 +45,7 @@ cd "validated task manager"
 # (Or use a local server like 'Live Server' in VS Code)
 ```
 
-## 📂 File Structure
+##  File Structure
 
 - `index.html`: The application structure and form layout.
 - `style.css`: The "TaskOrbit" design system and animations.
