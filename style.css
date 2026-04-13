@@ -201,6 +201,7 @@ button:disabled {
     align-items: center;
     animation: slideUp 0.4s ease-out backwards;
     transition: transform 0.3s ease, background 0.3s ease;
+    cursor: pointer;
 }
 
 .task-item:hover {
@@ -212,6 +213,30 @@ button:disabled {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+.task-details {
+    display: none;
+    width: 100%;
+    margin-top: 16px;
+    color: var(--text-secondary);
+    gap: 8px;
+}
+
+.task-item.expanded .task-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-meta {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.task-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
 }
 
 .task-title {
