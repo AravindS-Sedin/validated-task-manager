@@ -1,6 +1,6 @@
-# TaskOrbit | Advanced Task Manager
+# Task Manager
 
-TaskOrbit is a premium, real-time validated task manager built with **Vanilla JavaScript**. It focuses on a fluid user experience with robust validation, efficient DOM handling via event delegation, and persistent storage.
+It is a premium, real-time validated task manager built with **Vanilla JavaScript**. It focuses on a fluid user experience with robust validation, efficient DOM handling via event delegation, and persistent storage.
 
 ![TaskOrbit Preview](https://img.shields.io/badge/UI-Glassmorphism-blueviolet?style=for-the-badge)
 ![JS](https://img.shields.io/badge/JS-Vanilla-yellow?style=for-the-badge)
