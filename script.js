@@ -107,7 +107,7 @@ const renderTasks = () => {
         taskList.innerHTML = `
             <div class="empty-state">
                 <div class="empty-icon">📂</div>
-                <p>No tasks yet. Your orbit is clear.</p>
+                <p>No tasks yet.</p>
             </div>
         `;
         return;
