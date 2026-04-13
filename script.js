@@ -99,6 +99,13 @@ const sortTasks = () => {
     });
 };
 
+const formatDate = (isoString) => {
+    return new Date(isoString).toLocaleString([], {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+    });
+};
+
 const renderTasks = () => {
     const sortedTasks = sortTasks();
     taskCountLabel.textContent = `${sortedTasks.length} Task${sortedTasks.length !== 1 ? 's' : ''}`;
@@ -125,6 +132,10 @@ const renderTasks = () => {
                 </button>
                 <button class="action-btn btn-delete">Delete</button>
             </div>
+            <div class="task-details">
+                <p class="task-meta">Created: ${formatDate(task.createdAt)}</p>
+                <p class="task-desc">${task.description ? task.description : 'No description provided.'}</p>
+            </div>
         </div>
     `).join('');
 };
@@ -141,6 +152,8 @@ taskList.addEventListener('click', (e) => {
         toggleComplete(id);
     } else if (e.target.closest('.btn-delete')) {
         deleteTask(id);
+    } else {
+        taskItem.classList.toggle('expanded');
     }
 });
 
